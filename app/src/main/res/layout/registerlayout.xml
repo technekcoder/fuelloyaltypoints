@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_weight="2"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:paddingLeft="15dip"
+    android:paddingRight="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="VEHICLE NAME"
+            android:textColor="#372c24" />
+
+        <EditText
+            android:id="@+id/txtusername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:hint="vehicle name"
+            android:inputType="textCapCharacters"
+            android:padding="5dp"
+            android:singleLine="true"></EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="First name"
+            android:textColor="#372c24" />
+
+        <EditText
+            android:id="@+id/txtfullname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dip"
+            android:layout_marginBottom="3dp"
+            android:hint="full name"
+            android:padding="5dp"
+            android:singleLine="true" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="Email"
+            android:visibility="gone"
+            android:textColor="#372c24" />
+
+        <EditText
+            android:id="@+id/txtemail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:hint="email"
+            android:text="oilibya@gmail.com"
+            android:visibility="gone"
+            android:padding="5dp"
+            android:singleLine="true" />
+        <!-- Password Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="COMPANY NAME"
+            android:textColor="#372c24" />
+
+        <EditText
+            android:id="@+id/txtcompanyname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:hint="companyname"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="PHONE"
+            android:textColor="#372c24" />
+        <EditText
+            android:id="@+id/txtphone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dp"
+            android:text="0710114711"
+            android:inputType="number"
+            android:maxLength="14"
+            android:padding="5dp"
+            android:singleLine="true" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Qr_code"
+            android:textColor="#372c24" />
+
+        <EditText
+            android:id="@+id/txtqr_code"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dp"
+            android:hint="qr_code"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="353dp"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/barcode_image_view"
+                android:src="@drawable/qr_code"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:maxWidth="160dip"
+                android:maxHeight="40dip"
+                android:scaleType="centerInside"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Location"
+            android:textColor="#372c24" />
+
+        <EditText
+            android:id="@+id/txtcustomerlocation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dp"
+            android:text="NAKURU"
+            android:inputType="text"
+            android:maxLength="20"
+            android:singleLine="true" />
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:text="Register New customer" />
+    </LinearLayout>
+</ScrollView>

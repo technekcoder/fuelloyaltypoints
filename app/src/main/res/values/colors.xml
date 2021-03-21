@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4682b4</color>
+    <color name="colorPrimaryDark">#8e9cf7</color>
+    <color name="colorAccent">#9c868e</color>
+    <color name="white">#101013</color>
+    <color name="signupColor">#4682b4</color>
+    <color name="Redlight">#68b8fa</color>
+    <color name="divider_grey">#776C70</color>
+    <color name="material_blue_50">#e4f1fb</color>
+    <color name="material_blue_100">#bdddf4</color>
+    <color name="material_green_500">#4cae4e</color>
+    <color name="material_green_100">#c8e4c9</color>
+    <color name="material_green_600">#42a046</color>
+    <color name="material_green_800">#307d3d</color>
+    <color name="material_green_900">#7d1e5e2f</color>
+    <color name="material_red_800">#c52828</color>
+    <color name="material_red_900">#b62025</color>
+    <color name="material_red_A400">#ed2648</color>
+<color name="startblue">#68b8fa</color>
+    <color name="cyan7">#00695c</color>
+    <color name="inputContrastBackground">#F8F8F8</color>
+    <color name="inputBackground">#FFFFFF</color>
+    <color name="inputBorder">#DDDDDD</color>
+    <color name="inputDividerBorder">#AAAAAA</color>
+</resources>

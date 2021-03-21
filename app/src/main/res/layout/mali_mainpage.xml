@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_weight="2"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:paddingLeft="15dip"
+    android:paddingRight="15dp"
+    android:paddingEnd="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_create_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="15dp"
+            android:clickable="true"
+            android:layout_gravity="top|right"
+            app:backgroundTint="@color/material_blue_100"
+            app:srcCompat="@android:drawable/ic_input_add" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/tvcustomername"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="center"
+                android:text="customer_name"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_ledger_number"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="center"
+                android:text="customer_name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvcustomerpoints"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0.00"
+                android:textSize="14sp" />
+            <Button
+                android:id="@+id/Btn_scan_card"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:text="SCAN" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:text="Type of fuel" />
+
+        <RadioGroup
+            android:id="@+id/typefuel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/radiodiesel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="DIESEL"
+                android:textColor="#000000" />
+            <RadioButton
+                android:id="@+id/radiopms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PETROL"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/radiokero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:text="DPK"
+                android:textColor="#000000" />
+
+        </RadioGroup>
+        <LinearLayout
+            android:id="@+id/locationlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/typefuel"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="location " />
+            <Spinner
+                android:id="@+id/spinnerlocation"
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/location"
+                android:layout_alignParentLeft="true"
+                android:popupBackground="#bdcbd9" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/pumplayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/locationlayout"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pprice"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Pump price per litre " />
+
+            <EditText
+                android:id="@+id/pumpprice"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:hint=""
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/amountlayout"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pumplayout"
+                android:layout_alignParentLeft="true"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/rsale"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/radiosaleprice"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:text="Sale Amount" />
+
+                    <RadioButton
+                        android:checked="true"
+                        android:id="@+id/radioquantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Fuel Quantity in litres" />
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/quantitylayout"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pumplayout"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/fuelConsumed"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:hint=""
+                    android:singleLine="true"
+                    android:inputType="number"
+                    android:selectAllOnFocus="true"
+                    android:nextFocusDown="@+id/calculate"
+                    android:nextFocusForward="@+id/calculate"
+                    />
+
+                <EditText
+                    android:id="@+id/quantityconsumed"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:singleLine="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:hint="Litres Consumed"
+                    android:selectAllOnFocus="true"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quantitylayout"
+            android:background="@drawable/shapeoptions"
+            android:scaleType="center"
+            android:text="Calculate" />
+
+        <LinearLayout
+            android:id="@+id/taxablelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/calculate"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:text="VATABLE" />
+
+            <EditText
+                android:id="@+id/taxableamount"
+                android:layout_width="165dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="0dp"
+                android:hint="taxable amount"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nontaxablelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/taxablelayout"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:text="NON VATABLE" />
+
+            <EditText
+                android:id="@+id/nontaxableamount"
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="0dp"
+                android:inputType="number"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/eightpercentlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nontaxablelayout"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:text="8 % VAT" />
+
+            <EditText
+                android:id="@+id/eightpercentamount"
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="0dp"
+                android:editable="false"
+                android:hint="8 % amount"
+                android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/loyaltypointlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eightpercentlayout"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:text="Loyalty awarded" />
+
+            <EditText
+                android:id="@+id/loyaltypointamount"
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="0dp"
+                android:editable="false"
+                android:hint="loyalty"
+                android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/totallayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loyaltypointlayout"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:text="TOTAL AMOUNT" />
+
+            <EditText
+                android:id="@+id/totalamount"
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="0dp"
+                android:hint="full amount"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/options"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_below="@id/totallayout"
+            android:layout_margin="3dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btncancel"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="left"
+                android:layout_margin="15dp"
+                android:background="@drawable/shapeoptions"
+                android:text="Cancel" />
+
+            <Button
+                android:id="@+id/btnok"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_margin="10dp"
+                android:background="@drawable/shapeoptions"
+                android:text="SUBMIT" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnredeeem"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/shapeoptions"
+            android:text="REDEEM" />
+    </LinearLayout>
+</ScrollView>

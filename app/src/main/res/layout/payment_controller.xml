@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <TableLayout
+            android:id="@+id/alertDialogLoginForm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <CheckBox
+                    android:id="@+id/chkboxcalculate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Amount paid"
+                    android:background="#d5dda6"/>
+
+            <EditText
+                android:id="@+id/txt_amount_paid"
+                android:layout_width="222dp"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:inputType="none"
+                android:maxLength="25"
+                android:maxLines="1"
+                android:text="" />
+        </TableRow>
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+                android:visibility="gone"
+                >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="type redeem amount"
+                android:background="#d5dda6"
+                android:visibility="gone"
+                />
+            <EditText
+                android:id="@+id/txt_redeem_amount"
+                android:lines="1"
+                android:visibility="gone"
+                android:text="0"
+                android:maxLines="1"
+                android:maxLength="15"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="amount to pay"
+                android:background="#d5dda6"
+                />
+            <EditText
+                android:id="@+id/txt_amounttopay"
+                android:lines="1"
+                android:inputType="none"
+                android:focusable="false"
+                android:clickable="false"
+                android:text="0"
+                android:maxLines="1"
+                android:maxLength="18"/>
+        </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Balance"
+                    android:background="#d5dda6"
+                    />
+                <EditText
+                    android:id="@+id/txt_balance_amount"
+                    android:lines="1"
+                    android:text="0"
+                    android:maxLines="1"
+                    android:maxLength="15"/>
+            </TableRow>
+        </TableLayout>
+</LinearLayout>

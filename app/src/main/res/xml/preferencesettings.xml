@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+<PreferenceCategory android:key="user_catgory"
+    android:title="Customer settings"
+    android:color="#4682b4">
+    <EditTextPreference
+        android:dialogTitle="Terms of use"
+        android:key="terms"
+        android:editable="false"
+        android:summary="please make sure you read the terms"
+        android:title="Terms of Use" />
+    <SwitchPreference
+        android:key="switch"
+        android:title="Autologin"
+        android:defaultValue="false"
+        android:color="@color/signupColor"/>
+    <CheckBoxPreference
+    android:key="perform_sync"
+    android:summary="Enable or disable data sync"
+    android:title="Enable Auto Sync"
+    android:defaultValue="false"
+        />
+    <EditTextPreference
+        android:key="decimal"
+        android:summary=""
+        android:title="Decimal places"
+        android:inputType="number"/>
+</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="aboutmaliplus"
+        android:title="About"
+        android:clickable="false"
+        >
+<Preference
+    android:summary="@string/contactus"
+    android:clickable="false"
+    android:cursorVisible="false"
+    android:focusable="false"
+
+    android:focusableInTouchMode="false" />
+        <EditTextPreference
+            android:dialogTitle="Share"
+            android:key="feedbackmessage"
+            android:summary=""
+            android:title="Share" />
+        <EditTextPreference
+            android:dialogTitle="Version"
+            android:key="Version"
+            android:clickable="false"
+            android:title="Version 1.0"
+            android:enabled="false"/>
+        <EditTextPreference
+            android:dialogTitle="Export"
+            android:key="export"
+            android:clickable="true"
+            android:title="export to csv"
+            android:enabled="true"/>
+        <Preference
+            android:summary="@string/summary_faq"
+            android:title="@string/title_faq">
+        </Preference>
+
+    </PreferenceCategory>
+    <Preference
+        android:iconSpaceReserved="true"
+        android:padding="30dp"
+        android:layout_gravity="center"
+        android:layout="@layout/footerpreference"
+        android:key="footer"></Preference>
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:weightSum="10"
+    android:baselineAligned="false"
+    android:layout_gravity="center_horizontal">
+    <Button android:text="Update Prices" android:layout_width="140dp"
+        android:layout_weight="5" android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btnupdateprices" android:layout_gravity="center"></Button>
+
+</LinearLayout>

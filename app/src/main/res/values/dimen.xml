@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <dimen name="icon_size">56dp</dimen>
+    <dimen name="medium_margin">6dp</dimen>
+    <dimen name="normal_margin">6dp</dimen>
+    <dimen name="activity_margin">6dp</dimen>
+    <dimen name="bigger_margin">6dp</dimen>
+    <dimen name="smaller_text_size">10dp</dimen>
+    <dimen name="small_margin">6dp</dimen>
+        <!-- Default screen margins, per the Android Design guidelines. -->
+        <dimen name="activity_horizontal_margin">16dp</dimen>
+        <dimen name="activity_vertical_margin">16dp</dimen>
+        <dimen name="nav_header_vertical_spacing">8dp</dimen>
+        <dimen name="nav_header_height">176dp</dimen>
+        <dimen name="fab_margin">1dp</dimen>
+        <dimen name="margin_large">6dp</dimen>
+        <dimen name="margin_small">6dp</dimen>
+    <dimen name="barcode_disp_height">200dp</dimen>
+
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+
+    <dimen name="storeNameTextSize">28sp</dimen>
+    <dimen name="noteTextSize">14sp</dimen>
+
+    <dimen name="singleCardCardIdTextSizeMin">15sp</dimen>
+    <dimen name="singleCardCardIdTextSizeMax">50sp</dimen>
+    <dimen name="singleCardNoteTextSizeMin">25sp</dimen>
+    <dimen name="singleCardNoteTextSizeMax">50sp</dimen>
+
+    <dimen name="inputBorderThickness">2dip</dimen>
+    <dimen name="inputBorderDividerThickness">4dip</dimen>
+    <dimen name="inputPadding">20dip</dimen>
+    <dimen name="colorSamplePadding">10dip</dimen>
+    <dimen name="inputSize">18sp</dimen>
+
+    <dimen name="cardThumbnailSize">46dp</dimen>
+    <dimen name="cardThumbnailSizeLarge">200dp</dimen>
+
+
+
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Technek Loyalty fuel App</string>
+    <string name="summary_faq">Summary</string>
+    <string name="title_faq">FAQ</string>
+
+    <string name="newpricesupdate_notification_title_template">Newpricesupdate: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="newpricesupdate_notification_placeholder_text_template"> </string>
+<string name="updateinfo">In accordance with legal notice no.196 of 2010, the energy (petroleum pricing) regulations and amendment thereof, the Energy Regulatory Commission calculates the maximum retail pump prices of petroleum products which will be in force every 15th of each month.
+</string>
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="notifyname">notify</string>
+    <string name="generalterms">This mobile application (Maliplus fuel prices Calculator) is made available by The Primesoft Solutions limited.
+        You, the user of the App, confirm your acceptance of these App terms of use (“App Terms”). If you do not agree to these App Terms, you must immediately uninstall the App and discontinue its use.  These App Terms should be read alongside our Privacy Policy.
+    </string>
+    <string name="contactus">If you have any questions regarding our App, you can Email us: info@primesoft.co.ke or via: sales@primesoft.co.ke \n  Contact :0720789605 / 0733-789605/\n020-3507575
+    </string>
+    <string name="intellectualrights"><b>rights</b>
+        \n<li>All editorial content, information, photographs, illustrations, artwork and other graphic materials, and names, logos and trade marks on the Mobile Application are protected by copyright laws and/or other laws and/or international treaties, and belong to us and/or our suppliers, as the case may be. These works, logos, graphics, sounds or images may not be copied, reproduced, retransmitted, distributed, disseminated, sold, published, broadcasted or circulated whether in whole or in part, unless expressly permitted by us and/or our suppliers, as the case may be.</li>
+        \n <li>Nothing contained on the Mobile Application should be construed as granting by implication, estoppel, or otherwise, any license or right to use any trademark displayed on the Mobile Application without our written permission. Misuse of any trademarks or any other content displayed on the Mobile Application is prohibited.</li>
+        \n <li>We will not hesitate to take legal action against any unauthorised usage of our trade marks, name or symbols to preserve and protect its rights in the matter. All rights not expressly granted herein are reserved. Other product and company names mentioned herein may also be the trade marks of their respective owners.</li>
+    \n<li> We reserve the right to amend these Terms and Conditions of Use from time to time without notice. The revised Terms and Conditions of Use will be posted on the Mobile Application and shall take effect from the date of such posting. You are advised to review these terms and conditions periodically as they are binding upon you.</li>
+    \n<li></li></string>
+    <string name="privacypolicy"><b>privacy guidelines</b>
+    \n<li>We will collect and use of personal information solely with the objective of fulfilling those purposes specified by us and for other compatible purposes, unless we obtain the consent of the individual concerned or as required by law.</li>
+    \n<li>We will only retain personal information as long as necessary for the fulfillment of those purposes</li>
+    \n<li>We will collect personal information by lawful and fair means and, where appropriate, with the knowledge or consent of the individual concerned.</li>
+    \n<li>We will protect personal information by reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use or modification.</li>
+        \n<li>Personal information should be relevant to the purposes for which it is to be used, and, to the extent necessary for those purposes, should be accurate, complete, and up-to-date.</li>
+        \n<li></li>
+        \n<li></li>
+        \n<li>We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained.
+
+</li>
+
+    </string>
+    //settings
+    <string name="save_photos">Save photos and videos to</string>
+    <string name="show_preview">Show a photo preview after capturing</string>
+    <string name="shutter_sound">Shutter sound</string>
+    <string name="back_camera">Back camera resolutions</string>
+    <string name="front_camera">Front camera resolutions</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="focus_before_capture">Focus before capture</string>
+    <string name="volume_buttons_as_shutter">Use volume buttons as shutter</string>
+    <string name="turn_flash_off_at_startup">Turn flash off at startup</string>
+    <string name="flip_front_camera_photos_horizontally">Flip front camera photos horizontally</string>
+    <string name="keep_settings_visible">Keep the setting buttons visible</string>
+    <string name="always_open_back_camera">Always open the app with the Back camera</string>
+    <string name="save_photo_metadata">Save photo exif metadata</string>
+    <string name="photo_compression_quality">Photo compression quality</string>
+    <string name="saving_label">save</string>
+    <string name="startup">startup</string>
+    <string name="customize_colors">customize_colors</string>
+    <string name="shutter">Shutter</string>
+    <string name="RESTRICT_LOCATION">RESTRICT_LOCATION</string>
+    <string name="WORK_LOCATION">WORK_LOCATION</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="user_details">USERS</string>
+    <string name="USER_NAME">USER_NAME</string>
+    <string name="USER_PASSWORD">USER_PASSWORD</string>
+    <string name="USER_GROUP_CODE">GROUP_CODE</string>
+    <string name="USER_PROFILE_NAME">PROFILE_NAME</string>
+    <string name="USER_NUMBER">USER_NUMBER</string>
+    <string name="RESTRICT_ACCOUNT">RESTRICT_LOCATION</string>
+    <string name="USER_CASHACCOUNT">LOCATION_ACCESS</string>
+    <string name="about_us"><![CDATA[PrimeSoft Solutions (K) Ltd is an ICT Company committed to providing cutting-edge enterprise ICT solutions to small, medium and large sized organizations. Since our inception in 2007, We have implemented our varied solutions in over 200 establishments in Kenya and Tanzania thereby becoming a market leader in the fast growing and dynamic ICT industry. We are headquartered in the central business district of Nakuru, Kenya with contact offices & agents/dealers in most major towns in the country. Through Value Addition to our clients and existence of customized support agreements with our clients, we have established close long-term working relationships with both our business partners and clients to enable us deliver excellent services & solutions.. This ensures continued existence and guaranteed upgrades/enhancements to the solutions and services we offer.]]></string>
+    <string name="RESTRICT_WITHDRAWAL">RESTRICT_WITHDRAWAL</string>
+////////
+    <string name="fetch_customers">fetch_customers</string>
+    <string name="fetch_config">company_settings</string>
+    <string name="sharedPrefs">responses</string>
+    <string name="storeName">Store</string>
+    <string name="note">Note</string>
+    <string name="cardId">Card ID</string>
+    <string name="barcodeType">Barcode Type</string>
+    <string name="editCardTitle">Edit Loyalty Card</string>
+<string name="addCardTitle">Add Loyalty Card</string>
+<string name="viewCardTitle">View Loyalty Card</string>
+<string name="scanCardBarcode">Scan Card\'s Barcode</string>
+<string name="cardShortcut">Card Shortcut</string>
+<string name="noCardsMessage">There are no cards, add one first</string>
+
+<string name="barcodeImageDescription">Image of card\'s barcode</string>
+
+<string name="noStoreError">No Store entered</string>
+<string name="noCardIdError">No Card ID entered</string>
+<string name="noCardExistsError">Could not lookup loyalty card</string>
+
+<string name="cardIdFormat">%1$s: %2$s</string>
+<string name="storeNameAndNoteFormat" translatable="false">%1$s - %2$s</string>
+    <string name="selectBarcodeTitle">Select Barcode</string>
+    <string name="enterBarcodeInstructions">Enter the barcode value then select the image which represents the barcode you want to use</string>
+    <string name="capture">Capture Card</string>
+    <string name="enterCard">Register Card</string>
+    <string name="editCard">Edit Card</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+    <string name="lockScreen">Block Rotation</string>
+    <string name="unlockScreen">Unblock Rotation</string>
+    <string name="deleteTitle">Remove Loyalty Card</string>
+    <string name="deleteConfirmation">Please confirm that you want to delete this card.</string>
+    <string name="ok">OK</string>
+    <string name="copy_to_clipboard">Copy ID to clipboard</string>
+    <string name="sendLabel">Send&#8230;</string>
+    <string name="addedShortcut">Added to Home Screen</string>
+    <string name="fetch_customer">customer</string>
+    <string name="fetched_responses">responses</string>
+    <string name="fetch_items">fetch_items</string>
+    <string name="customer_original">customer_original</string>
+    <string name="order_number">order_number</string>
+    <!--<string name="ACCESS_CODE_LOCAL">http://62.12.114.126:8080/licencing/getCodeApproval.php</string>
+    <string name="ACCESS_CODE">http://62.12.114.126:80/licencing/getCodeApproval.php</string>-->
+    <string name="ACCESS_CODE">http://62.12.113.126:80/lpsl2017xss/getCodeApproval.php</string>
+    <string name="ACCESS_CODE_LOCAL">http://192.168.0.120:9090/licencing/getCodeApproval.php</string>
+    <string name="suppliers">suppliers</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_select_device">Select a device to connect</string>
+    <string name="title_scanning">Scanning for devices&#8230;</string>
+    <string name="title_bluetooth_disabled">Bluetooth is disabled</string>
+    <string name="title_read_information">Read information</string>
+    <string name="title_print_self_test">Print self test</string>
+    <string name="title_print_text">Print Transaction</string>
+    <string name="title_please_wait">Please wait</string>
+    <string name="title_warning">Warning</string>
+    <string name="title_address">Address</string>
+    <string name="title_connect">Connect</string>
+    <string name="msg_printing_self_test">Printing self test&#8230;</string>
+    <string name="msg_printing_text">Printing text&#8230;</string>
+    <string name="msg_printing_image">Printing image&#8230;</string>
+    <string name="msg_printing_page">Printing page&#8230;</string>
+    <string name="msg_printing_barcode">Printing barcode&#8230;</string>
+    <string name="msg_reading_magstripe">Reading magnetic card&#8230;</string>
+    <string name="msg_reading_barcode">Reading barcode&#8230;</string>
+    <string name="msg_connecting">Connecting to device&#8230;</string>
+    <string name="msg_unsupport_page_mode">Printer does not supports page mode</string>
+    <string name="printer_info">Printer information</string>
+    <string name="card_info">Card information</string>
+    <string name="tag_info">Tag information</string>
+    <string name="barcode">Barcode</string>
+    <string name="card_no">Card#</string>
+    <string name="holder">Holder</string>
+    <string name="exp_date">Exp date</string>
+    <string name="no_card_read">No card information read</string>
+</resources>
